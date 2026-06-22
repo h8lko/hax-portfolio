@@ -26,7 +26,7 @@ const groups = [
   },
   {
     title: "Frontend",
-    items: ["HTML", "CSS", "React (learning)", "Next.js (learning)"],
+    items: ["HTML", "CSS", "React", "Next.js", "Tailwind CSS"],
   },
   {
     title: "Databases & tools",
