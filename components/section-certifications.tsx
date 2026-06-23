@@ -26,7 +26,7 @@ const certs = [
   {
     title: "ReactJS for Beginners",
     issuer: "Simplilearn",
-    year: "2025",
+    year: "2026",
     description:
       "Foundational ReactJS training covering components, state, and modern UI development.",
     file: "/certificates/03-simplilearn-reactjs.pdf",
@@ -34,7 +34,7 @@ const certs = [
   {
     title: "Python 101 for Data Science",
     issuer: "IBM SkillsBuild",
-    year: "2025",
+    year: "2026",
     description:
       "Python fundamentals applied to data science workflows and analysis.",
     file: "/certificates/04-ibm-python-101.pdf",
@@ -42,7 +42,7 @@ const certs = [
   {
     title: "SQL and Relational Databases 101",
     issuer: "IBM SkillsBuild",
-    year: "2025",
+    year: "2026",
     description:
       "Core SQL skills and relational database concepts for data handling.",
     file: "/certificates/05-ibm-sql-relational-db.pdf",
@@ -50,7 +50,7 @@ const certs = [
   {
     title: "Tyk Practitioner Certificate",
     issuer: "Tyk",
-    year: "2025",
+    year: "2026",
     description:
       "Practical certification for working with the Tyk API management platform.",
     file: "/certificates/06-tyk-practitioner.pdf",
@@ -58,7 +58,7 @@ const certs = [
   {
     title: "Introduction to GitHub Copilot",
     issuer: "Microsoft Learn",
-    year: "2025",
+    year: "2026",
     description:
       "AI-assisted development with GitHub Copilot and productivity techniques.",
     file: "/certificates/07-ms-github-copilot.pdf",
@@ -66,7 +66,7 @@ const certs = [
   {
     title: "Turn Ideas into Reality with Vibe Coding",
     issuer: "IBM SkillsBuild",
-    year: "2025",
+    year: "2026",
     description:
       "A creative, low-friction approach to turning concepts into working code.",
     file: "/certificates/08-ibm-vibe-coding.png",
@@ -74,7 +74,7 @@ const certs = [
   {
     title: "Digital Marketing Certified",
     issuer: "HubSpot Academy",
-    year: "2025",
+    year: "2026",
     description:
       "Inbound digital marketing fundamentals including content, SEO, and social.",
     file: "/certificates/09-hubspot-digital-marketing.png",
@@ -82,7 +82,7 @@ const certs = [
   {
     title: "webMethods API Management Basic",
     issuer: "IBM SkillsBuild",
-    year: "2025",
+    year: "2026",
     description: "Foundations of API management using IBM webMethods.",
     file: "/certificates/10-ibm-webmethods-api.pdf",
   },
