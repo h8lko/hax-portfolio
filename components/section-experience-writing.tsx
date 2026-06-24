@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { SectionHeading, useFadeInOnScroll } from "@/components/section-utils";
+import { ExperienceCases } from "@/components/section-experience-cases";
 import { cn } from "@/lib/utils";
 
 const experience = [
@@ -14,6 +15,35 @@ const experience = [
       "Designed social media assets and team branding collateral.",
       "Coordinated with talent and production on tight broadcast schedules.",
     ],
+    cases: [
+      {
+        id: "esports-roster",
+        problem:
+          "Key players left teams before tournaments, causing roster instability.",
+        solution:
+          "Built a structured player retention system with performance reviews and clear career progression plans.",
+        result:
+          "Improved roster stability and eliminated last-minute player replacements during competitive seasons.",
+      },
+      {
+        id: "esports-data",
+        problem:
+          "Team decisions were based on opinions with no objective data.",
+        solution:
+          "Introduced match analysis systems, statistical tracking, and post-game review processes.",
+        result:
+          "Improved drafting accuracy, strategy development, and player evaluation quality.",
+      },
+      {
+        id: "esports-comms",
+        problem:
+          "Multi-national team members had communication breakdowns due to language and cultural differences.",
+        solution:
+          "Established standardized communication procedures and designated English as the operational language.",
+        result:
+          "Reduced internal conflicts and improved team coordination across the roster.",
+      },
+    ],
   },
   {
     role: "Graphic Design Studio",
@@ -23,6 +53,35 @@ const experience = [
       "Delivered form‑centric visual assets and brand systems for clients.",
       "Translated briefs into reusable components and design tokens.",
       "Worked with print and digital pipelines across multiple projects.",
+    ],
+    cases: [
+      {
+        id: "design-scope",
+        problem:
+          "Clients requested unlimited revisions, causing project delays and profitability issues.",
+        solution:
+          "Introduced a project scope system with defined revision limits and milestone sign-offs.",
+        result:
+          "Reduced project delays and set clearer client expectations from day one.",
+      },
+      {
+        id: "design-brand",
+        problem:
+          "Clients received designs that lacked visual consistency across platforms.",
+        solution:
+          "Built comprehensive brand guideline documents covering typography, color systems, and logo usage.",
+        result:
+          "Delivered consistent brand identity across print and digital, increasing client satisfaction.",
+      },
+      {
+        id: "design-files",
+        problem:
+          "Design files were scattered across devices, causing version control issues and wasted time.",
+        solution:
+          "Implemented centralized cloud-based asset management with standardized file naming conventions.",
+        result:
+          "Faster project delivery and near-zero production errors from file mix-ups.",
+      },
     ],
   },
 ];
@@ -78,6 +137,7 @@ export function ExperienceSection() {
                   <li key={b}>{b}</li>
                 ))}
               </ul>
+              <ExperienceCases cases={e.cases} />
             </div>
           ))}
         </div>
