@@ -21,7 +21,7 @@ const certs = [
     year: "2026",
     description:
       "Cloud-native application development and microservices architecture fundamentals.",
-    file: "/certificates/02-ibm-cloud-native-microservices.pdf",
+    file: "/certificates/02-ibm-cloud-native-microservices.png",
   },
   {
     title: "ReactJS for Beginners",
@@ -37,7 +37,7 @@ const certs = [
     year: "2026",
     description:
       "Python fundamentals applied to data science workflows and analysis.",
-    file: "/certificates/04-ibm-python-101.pdf",
+    file: "/certificates/04-ibm-python-101.jpeg",
   },
   {
     title: "SQL and Relational Databases 101",
@@ -45,7 +45,7 @@ const certs = [
     year: "2026",
     description:
       "Core SQL skills and relational database concepts for data handling.",
-    file: "/certificates/05-ibm-sql-relational-db.pdf",
+    file: "/certificates/05-ibm-sql-relational-db.jpeg",
   },
   {
     title: "Tyk Practitioner Certificate",
@@ -61,7 +61,7 @@ const certs = [
     year: "2026",
     description:
       "AI-assisted development with GitHub Copilot and productivity techniques.",
-    file: "/certificates/07-ms-github-copilot.pdf",
+    file: "/certificates/07-ms-github-copilot.jpeg",
   },
   {
     title: "Turn Ideas into Reality with Vibe Coding",
@@ -84,7 +84,7 @@ const certs = [
     issuer: "IBM SkillsBuild",
     year: "2026",
     description: "Foundations of API management using IBM webMethods.",
-    file: "/certificates/10-ibm-webmethods-api.pdf",
+    file: "/certificates/10-ibm-webmethods-api.png",
   },
 ];
 
