@@ -21,7 +21,7 @@ const certs = [
     year: "2026",
     description:
       "Cloud-native application development and microservices architecture fundamentals.",
-    file: "/certificates/02-ibm-cloud-native-microservices.png",
+    file: "/certificates/02-ibm-cloud-native-microservices.jpg",
   },
   {
     title: "ReactJS for Beginners",
@@ -84,7 +84,7 @@ const certs = [
     issuer: "IBM SkillsBuild",
     year: "2026",
     description: "Foundations of API management using IBM webMethods.",
-    file: "/certificates/10-ibm-webmethods-api.png",
+    file: "/certificates/10-ibm-webmethods-api.jpg",
   },
 ];
 
